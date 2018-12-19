@@ -15,22 +15,22 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.white('              Nicholas Jamieson'),
+  handle: chalk.white('cartant'),
+  work: chalk.white('Front-end Developer at Rexlabs'),
+  opensource: chalk.white('RxJS Core-team Member'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('ncjamieson'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.cyan('~cartant'),
+  github: chalk.gray('https://github.com/') + chalk.cyan('cartant'),
+  medium: chalk.gray('https://medium.com/') + chalk.cyan('@cartant'),
+  web: chalk.cyan('https://cartant.com'),
+  npx: chalk.cyan('npx') + ' ' + chalk.white('cartant'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  labelMedium: chalk.white.bold('     Medium:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
@@ -43,7 +43,7 @@ const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
-const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+const mediuming = `${data.labelMedium}  ${data.medium}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
@@ -55,7 +55,7 @@ const output = heading + // data.name + data.handle
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               linkedining + newline + // data.labelLinkedIn + data.linkedin
+               mediuming + newline + // data.labelMedium + data.medium
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
