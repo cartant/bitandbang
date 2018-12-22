@@ -18,7 +18,7 @@ const data = {
   name: chalk.white('              Nicholas Jamieson'),
   handle: chalk.white('cartant'),
   work: chalk.white('Front-end Developer at Rexlabs'),
-  opensource: chalk.white('RxJS Core-team Member'),
+  opensource: chalk.white('RxJS Core Team Member'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('ncjamieson'),
   npm: chalk.gray('https://npmjs.com/') + chalk.cyan('~cartant'),
   github: chalk.gray('https://github.com/') + chalk.cyan('cartant'),
